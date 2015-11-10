@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="http://localhost:8080/ku/img/favicon.ico" />
+  <title>Krishna University</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="bootstrap-3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/Stickyfooter.css">
+  <link rel="stylesheet" href="css/kru.css">
+  <script src="jquery-2.1.4/jquery.min.js"></script>
+  <script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+  <script src="angular-js/angular.js"></script>
+  <script src="angular-js/angular-ui-router.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body ng-app="kuApp" style="background-color: Gray;"><!-- ng-controller="kuCtrl" -->
+
+<!-- Menu Bar -->
+<nav class="navbar navbar-inverse" style="margin-bottom:0px" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a ui-sref="home">Krishna University</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref="about">About</a></li>
+            <li><a ui-sref="vc">Vice-Chancellor</a></li>
+            <li><a ui-sref="registrar">Registrar</a></li>
+            <li><a ui-sref="principal">Principal</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- View -->
+<div class="container-fluid" style="padding:0" ui-view></div>
+
+<!-- Sticky Footer -->
+<footer class="footer">
+  <div class="container">
+    <div style="text-align:center;" class="text-muted">&#0169;2015 Krishna Unverisity All rights reserved.</div>
+    <ul class="footer-nav">
+      <li>
+      		<a href="https://www.facebook.com/biomorf" target="_blank"><img src= "img/facebook.png" alt="facebook" title="Facebook Page"></a>
+      </li>
+      <li>
+        <a href="http://www.linkedin.com/company/pt-biomorf-lone-indonesia" target="_blank"><img src="img/linkedin.png" alt="LinkedIn" title="LinkedIn Page"></a>
+      </li>
+      <li>
+        <a href="https://twitter.com/biomorfindo" target="_blank"><img src="img/twitter_logo.jpg" alt="Twitter" title="Twitter Page"></a>
+      </li>
+    </ul> 
+  </div>
+</footer>
+
+</body>
+</html>
