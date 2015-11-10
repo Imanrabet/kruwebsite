@@ -1,0 +1,143 @@
+<div class="container-fluid header-strip">
+	<h1 class="header-label">
+	About
+	</h1>
+</div>
+<div class="row " ng-controller="kuAboutCtrl">
+	<div class="col-sm-2 div-left"></div>
+	<div class="col-sm-8" style="background-color:red;">
+		<div>
+			<ul class="nav navbar-nav">
+		        <li class="active"><a ng-click="aboutTab('home')">Home</a></li>
+		        <li><a ng-click="aboutTab('visionandmission')">Vision & Mission</a></li>
+		        <li><a ng-click="aboutTab('qp')">Quality Policy</a></li>
+		        
+			</ul>
+		</div>
+		<br>
+		<div  style="float: left; padding:0" ui-view>
+			
+			<div ng-if="aboutTabFlag == 'home'">
+				<div>
+					
+				<p>In pursuance of the recommendations of Knowledge Commission, Krishna University was established, vide Andhra Pradesh Act.No.4 of 1991, G.O’ Ms. No.89 Higher Education (U.E.II) dated 25/06/2008 and G.O Ms. No.109, Higher Education (U.E.II) department dated 14/07/2008 at Machilipatnam, as the town is the head-quarters of Krishna District of Andhra Pradesh. On 23/04/08, The then Hon’ble Chief Minister Dr.Y Rajasekhara Reddy laid the foundation stone for the University. A Feasibility committee headed by Prof. K. Viyyanna Rao visited Machilipatnam for establishing the University.
+				</p>	
+
+
+				<h3>KRISHNA DISTRICT</h3>
+
+				<p>Krishna University largely caters to the higher educational needs of people in Krishna District in particular and Andhra Pradesh in general. This district is famous for its fertile soil, rich mineral resources, aqua culture and horticulture etc. This district is also widely known for its publishing houses.</p>
+
+				<h3>MACHILIPATNAM</h3>
+
+				<p>Krishna University is established in a great historic coastal town called Machilipatnam, which is the head-quarters of Krishna district of Andhra Pradesh. The town is a special grade municipality in Krishna district existing since 3rd century BC.</p>
+				
+				</div>
+			</div>
+			<div ng-if="aboutTabFlag == 'visionandmission'">
+				<h3>
+				Vision
+				</h3>
+				<p>
+				“To develop the University as a highly reputed higher
+				education institution of perennial source of knowledge
+				like river Krishna, for a just and sustainable knowledge
+				economy and society.”</p>
+				<h3>Mission</h3>
+				The University is committed to:
+				<ol>
+					<li>
+				Provide more inclusive access to affordable quality
+				higher education.</li>
+				<li>Promote quality research in diverse areas of
+				development and change appropriate to the local
+				context.
+				</li>
+				<li>
+				Engage in application of knowledge for community development.
+				</li>
+				<li>
+				Strengthen interface between Affiliated Colleges and
+				University for common good.
+				</li>
+				<li>
+				Provide a responsive, accountable, transparent,
+				participative, and results based management system.
+				</li>
+				<li>
+				Develop network with industry and other academic and
+				research institutions to meet the expectations of various
+				stakeholders.
+				</li>
+				<li>
+				Use ICT extensively for enrichment of teaching-learning
+				process and for effective governance.
+			</li>
+		</ol>
+			</div>
+			<div ng-if="aboutTabFlag == 'qp'">
+				<p>Krishna University (KRU) is committed to ensure world class
+					standards of excellence in teaching, research, consultancy and
+					public engagement activities to realize the vision and mission of
+					the university. 
+				</p>
+					The quality objectives and practices include:
+				<ul>
+					<li>	
+					To put in place the internal quality assurance system for
+					conscientious, continuous, catalytic and planned action towards
+					efficient academic and administrative performance.
+					</li>
+					<li>
+					To create an environment for quality enhancement and sustenance by
+					institutionalization of best practices and internalization of quality
+					culture.
+					</li>
+					<li>
+					To develop quality benchmarks for various academic and
+					administrative activities of the University to put in place quality
+					practices in all its day to day operations by developing standard
+					operating procedures for various activities.
+					</li>
+					<li>
+					To guide, facilitate and encourage affiliated colleges in quality-related
+					activities.
+					</li>
+					<li>
+					To design a system for assimilating feedback on educational
+					programmes from the stakeholders such as teachers, students,
+					employers, government and non-government organizations.
+					</li>
+					<li>
+					To undertake training and development activities for all staff to build
+					their capacity for operationalization of quality practices.
+					</li>
+					<li>
+					To organize inter and intra institutional workshops, seminars and
+					conferences on quality related themes and promotion of quality
+					circles.
+					</li>
+					<li>
+					To develop and maintain institutional database and design a sound
+					Management Information System (MIS) for ensuring institutionalwide
+					quality assurance.
+					</li>
+					<li>
+					To prepare the Annual Quality Assurance Report (AQAR) of the
+					University based on the quality parameters/assessment criteria
+					developed by quality assurance bodies.
+					</li>
+					<li>
+					To develop bi-annual Quality Radars (QRs) and Ranking of Internal
+					Units of KRU as a part of Quality Monitoring and Guidance.
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	<div class="col-sm-2 div-right"></div>
+
+
+</div>
+

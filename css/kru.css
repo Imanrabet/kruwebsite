@@ -1,0 +1,57 @@
+.header-strip {
+  background-color:blue; 
+  height:150px;
+}
+
+.header-label {
+  padding-top: 27px; 
+  padding-left: 50px; 
+  font-size: 45px;
+}
+
+.home-img {
+  width:100%; 
+  height:300px
+}
+.inner-menu-img {
+  width:100%; 
+  height:400px
+}
+
+.right-div {
+  background-color:green;
+}
+
+
+ .footer-nav {
+  text-align:right;
+  list-style:none;
+ }
+
+ .footer-nav li {
+  display:inline;
+  bottom: 0;
+  
+ }
+
+ .footer-nav li:not(:first-child):before {
+  content:'|';
+  padding:0px 10px;
+ }
+
+ .footer-nav a {
+  color:#b2b2b2;
+ }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+} */
